@@ -1,6 +1,8 @@
 # A robot arm designed with Codex
 
-<!-- Randy's introduction goes here. -->
+This one’s for the mechanical/aerospace engineers! The work you are about to see here was all completed by Codex (OpenAI’s coding agent). The same Codex anyone gets access to with their ChatGPT subscription. It designed a robot arm by researching real parts it could use, created a BOM, made the CAD model, and ran a few FEA studies. It then turned in all its work at 11:58 pm, one minute before it was due. Wait no, that was me during undergrad.
+
+Now if any engineers actually go through this work I’m sure they’ll find mistakes or methods/decisions they would disagree with. The actual work is not the most important part here. The shape of the work is. Ask yourself, what would happen if you brought your engineering expertise, physics knowledge, CAD skills, industry understanding, etc. to an agent that could execute everything you see here? What if it built your design? Ran the studies you wanted? Made the plots/figures? And iterated under your direction?
 
 ![The R300B arm holding the cube in FreeCAD](images/arm-holding-cube.png)
 
@@ -73,3 +75,10 @@ Run the analyses from editable **FreeCAD FEM project files** and save the actual
 Write a standalone FEM report that shows where the loads and supports are applied and how stress, strain, and deflection change with payload. Use comparable plots and a summary table. State the material data, assumptions, acceptance criteria, and mesh checks. Explain which modeled limit is reached first if one is reached, or what the tested range shows if none is reached. Screen motor torque, grip retention, and joint/interface limits separately where the available evidence supports it, and flag anything that could govern before the structure does. A limit predicted by the model is not a measured failure load or a payload rating. If a linear-elastic case exceeds its valid range, flag that rather than interpreting the result as a prediction of post-yield behavior.
 
 </details>
+
+## Contact
+
+**Randy Crespo, founder of [Dandelion Engineering](https://github.com/Dandelion-Engineering).**
+
+- **LinkedIn:** [linkedin.com/in/randy-crespo](https://www.linkedin.com/in/randy-crespo)
+- **Email:** [randy@dandelionengineering.com](mailto:randy@dandelionengineering.com)
