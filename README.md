@@ -1,4 +1,4 @@
-# A robot arm designed with Codex
+# A robot arm designed by Codex
 
 This one’s for the mechanical/aerospace engineers! The work you are about to see here was all completed by Codex (OpenAI’s coding agent). The same Codex anyone gets access to with their ChatGPT subscription. It designed a robot arm by researching real parts it could use, created a BOM, made the CAD model, and ran a few FEA studies. It then turned in all its work at 11:58 pm, one minute before it was due. Wait no, that was me during undergrad.
 
