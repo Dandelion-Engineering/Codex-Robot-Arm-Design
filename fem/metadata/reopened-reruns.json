@@ -1,0 +1,194 @@
+[
+  {
+    "payload_kg": 1,
+    "project": "cases\\1kg\\study.FCStd",
+    "project_sha256": "6d3b7893feb2d5c6d5185ac05746f6a4e6230cdbea81fc8e90650da2339c6363",
+    "saved_metrics": {
+      "max_von_mises_MPa": 14.44784756450673,
+      "max_displacement_mm": 0.42879274794125194,
+      "max_abs_principal_strain": 0.00021092225515882267,
+      "max_equivalent_deviatoric_strain": 0.0001830061277813521,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ]
+    },
+    "rerun_metrics": {
+      "max_von_mises_MPa": 14.44784756450673,
+      "max_displacement_mm": 0.42879274794125194,
+      "max_abs_principal_strain": 0.00021092225515882267,
+      "max_equivalent_deviatoric_strain": 0.0001830061277813521,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ]
+    },
+    "max_field_absolute_differences": {
+      "xyz": 0.0,
+      "u": 0.0,
+      "vm": 0.0,
+      "strain": 0.0
+    },
+    "same_nodes_and_elements": true,
+    "saved_file_unchanged": true,
+    "native_workflow": "Open FCStd -> native prerequisite check -> native writer -> CalculiX -> native result import",
+    "pass": true,
+    "saved_vs_archived_max_field_differences": {
+      "xyz": 0.0,
+      "u": 0.0,
+      "vm": 0.0,
+      "strain": 0.0,
+      "eq_strain": 0.0
+    }
+  },
+  {
+    "payload_kg": 2,
+    "project": "cases\\2kg\\study.FCStd",
+    "project_sha256": "7a893e2cdd543700c3fecde7a933c136e3b8b5f2d4879f6b53b4dca9e86db3bf",
+    "saved_metrics": {
+      "max_von_mises_MPa": 19.2568048624864,
+      "max_displacement_mm": 0.5715424587278272,
+      "max_abs_principal_strain": 0.00028109273718761275,
+      "max_equivalent_deviatoric_strain": 0.00024391977149305092,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ]
+    },
+    "rerun_metrics": {
+      "max_von_mises_MPa": 19.2568048624864,
+      "max_displacement_mm": 0.5715424587278272,
+      "max_abs_principal_strain": 0.00028109273718761275,
+      "max_equivalent_deviatoric_strain": 0.00024391977149305092,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ]
+    },
+    "max_field_absolute_differences": {
+      "xyz": 0.0,
+      "u": 0.0,
+      "vm": 0.0,
+      "strain": 0.0
+    },
+    "same_nodes_and_elements": true,
+    "saved_file_unchanged": true,
+    "native_workflow": "Open FCStd -> native prerequisite check -> native writer -> CalculiX -> native result import",
+    "pass": true,
+    "saved_vs_archived_max_field_differences": {
+      "xyz": 0.0,
+      "u": 0.0,
+      "vm": 0.0,
+      "strain": 0.0,
+      "eq_strain": 0.0
+    }
+  },
+  {
+    "payload_kg": 4,
+    "project": "cases\\4kg\\study.FCStd",
+    "project_sha256": "3c02de0efea6429af4c8b9ef1a0403377525d35a24219aecb7aaf5a06048c937",
+    "saved_metrics": {
+      "max_von_mises_MPa": 28.874743988802585,
+      "max_displacement_mm": 0.8570429078917229,
+      "max_abs_principal_strain": 0.000421433637813473,
+      "max_equivalent_deviatoric_strain": 0.00036574706778039163,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ]
+    },
+    "rerun_metrics": {
+      "max_von_mises_MPa": 28.874743988802585,
+      "max_displacement_mm": 0.8570429078917229,
+      "max_abs_principal_strain": 0.000421433637813473,
+      "max_equivalent_deviatoric_strain": 0.00036574706778039163,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ]
+    },
+    "max_field_absolute_differences": {
+      "xyz": 0.0,
+      "u": 0.0,
+      "vm": 0.0,
+      "strain": 0.0
+    },
+    "same_nodes_and_elements": true,
+    "saved_file_unchanged": true,
+    "native_workflow": "Open FCStd -> native prerequisite check -> native writer -> CalculiX -> native result import",
+    "pass": true,
+    "saved_vs_archived_max_field_differences": {
+      "xyz": 0.0,
+      "u": 0.0,
+      "vm": 0.0,
+      "strain": 0.0,
+      "eq_strain": 0.0
+    }
+  },
+  {
+    "payload_kg": 8,
+    "project": "cases\\8kg\\study.FCStd",
+    "project_sha256": "08c4f74e6ef1c9f7f3470a80f3144202c8ea8df496d083564d9a34115af3f085",
+    "saved_metrics": {
+      "max_von_mises_MPa": 48.1106467045287,
+      "max_displacement_mm": 1.428046834802868,
+      "max_abs_principal_strain": 0.0007021148144376329,
+      "max_equivalent_deviatoric_strain": 0.0006094014849073761,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ]
+    },
+    "rerun_metrics": {
+      "max_von_mises_MPa": 48.1106467045287,
+      "max_displacement_mm": 1.428046834802868,
+      "max_abs_principal_strain": 0.0007021148144376329,
+      "max_equivalent_deviatoric_strain": 0.0006094014849073761,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ]
+    },
+    "max_field_absolute_differences": {
+      "xyz": 0.0,
+      "u": 0.0,
+      "vm": 0.0,
+      "strain": 0.0
+    },
+    "same_nodes_and_elements": true,
+    "saved_file_unchanged": true,
+    "native_workflow": "Open FCStd -> native prerequisite check -> native writer -> CalculiX -> native result import",
+    "pass": true,
+    "saved_vs_archived_max_field_differences": {
+      "xyz": 0.0,
+      "u": 0.0,
+      "vm": 0.0,
+      "strain": 0.0,
+      "eq_strain": 0.0
+    }
+  }
+]

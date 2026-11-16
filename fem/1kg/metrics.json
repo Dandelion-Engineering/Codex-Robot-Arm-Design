@@ -1,0 +1,13 @@
+{
+  "max_von_mises_MPa": 14.44784756450673,
+  "max_displacement_mm": 0.42879274794125194,
+  "max_abs_principal_strain": 0.00021092225515882267,
+  "max_equivalent_deviatoric_strain": 0.0001830061277813521,
+  "max_displacement_node": 772,
+  "max_stress_node": 50976,
+  "result_nodes": 151623,
+  "strain_components_present": [
+    151623,
+    6
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "payload_kg": 1,
+    "max_von_mises_MPa": 14.44784756450673,
+    "max_displacement_mm": 0.42879274794125194,
+    "max_abs_principal_strain": 0.00021092225515882267,
+    "max_equivalent_deviatoric_strain": 0.0001830061277813521,
+    "max_displacement_node": 772,
+    "max_stress_node": 50976,
+    "result_nodes": 151623,
+    "strain_components_present": [
+      151623,
+      6
+    ]
+  },
+  {
+    "payload_kg": 2,
+    "max_von_mises_MPa": 19.2568048624864,
+    "max_displacement_mm": 0.5715424587278272,
+    "max_abs_principal_strain": 0.00028109273718761275,
+    "max_equivalent_deviatoric_strain": 0.00024391977149305092,
+    "max_displacement_node": 772,
+    "max_stress_node": 50976,
+    "result_nodes": 151623,
+    "strain_components_present": [
+      151623,
+      6
+    ]
+  },
+  {
+    "payload_kg": 4,
+    "max_von_mises_MPa": 28.874743988802585,
+    "max_displacement_mm": 0.8570429078917229,
+    "max_abs_principal_strain": 0.000421433637813473,
+    "max_equivalent_deviatoric_strain": 0.00036574706778039163,
+    "max_displacement_node": 772,
+    "max_stress_node": 50976,
+    "result_nodes": 151623,
+    "strain_components_present": [
+      151623,
+      6
+    ]
+  },
+  {
+    "payload_kg": 8,
+    "max_von_mises_MPa": 48.1106467045287,
+    "max_displacement_mm": 1.428046834802868,
+    "max_abs_principal_strain": 0.0007021148144376329,
+    "max_equivalent_deviatoric_strain": 0.0006094014849073761,
+    "max_displacement_node": 772,
+    "max_stress_node": 50976,
+    "result_nodes": 151623,
+    "strain_components_present": [
+      151623,
+      6
+    ]
+  }
+]

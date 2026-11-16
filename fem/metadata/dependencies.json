@@ -1,0 +1,29 @@
+{
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "python": "3.11.14",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.8",
+  "executables": {
+    "gmsh.exe": {
+      "sha256": "7f583d16dc0d6a80ff25c4e979b43b20f6d5c99a027de55a33ca678c1258ff65",
+      "version_output": "4.15.0",
+      "exit_code": 0
+    },
+    "ccx.exe": {
+      "sha256": "a7c351a332373e3075029b7986ea4c9e878789c5b4d2feaed1ef83703624fff5",
+      "version_output": "This is Version 2.22",
+      "exit_code": 201
+    }
+  },
+  "report_runtime": "Codex bundled ReportLab 4.4.9 / Pillow; Poppler renders PDF. Not needed to rerun FEM.",
+  "external_binaries_included": false
+}

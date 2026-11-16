@@ -1,0 +1,297 @@
+[
+  {
+    "specification": "DIN 7984 M3 x 8; 12.9",
+    "quantity": 6,
+    "cad_names": [
+      "YawCapBolt",
+      "YawCapBolt001",
+      "YawCapBolt002",
+      "YawCapBolt003",
+      "YawCapBolt004",
+      "YawCapBolt005"
+    ]
+  },
+  {
+    "specification": "DIN 965 M2 x 5; A2-70",
+    "quantity": 8,
+    "cad_names": [
+      "PadClampScrew",
+      "PadClampScrew001",
+      "PadClampScrew002",
+      "PadClampScrew003",
+      "PadClampScrew004",
+      "PadClampScrew005",
+      "PadClampScrew006",
+      "PadClampScrew007"
+    ]
+  },
+  {
+    "specification": "DIN 965 M3 x 10; A2-70",
+    "quantity": 4,
+    "cad_names": [
+      "GripperMountBolt",
+      "GripperMountBolt001",
+      "GripperMountBolt002",
+      "GripperMountBolt003"
+    ]
+  },
+  {
+    "specification": "DIN 965 M4 x 14; A2-70",
+    "quantity": 4,
+    "cad_names": [
+      "SaddleWristBolt",
+      "SaddleWristBolt001",
+      "SaddleWristBolt002",
+      "SaddleWristBolt003"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M3 x 10; 12.9",
+    "quantity": 29,
+    "cad_names": [
+      "ShoulderIdler_retainer",
+      "ShoulderIdler_retainer001",
+      "ShoulderIdler_retainer002",
+      "ElbowIdler_retainer",
+      "ElbowIdler_retainer001",
+      "ElbowIdler_retainer002",
+      "WristIdler_retainer",
+      "WristIdler_retainer001",
+      "WristIdler_retainer002",
+      "WristIdlerFlangeBolt",
+      "WristIdlerFlangeBolt001",
+      "WristIdlerFlangeBolt002",
+      "WristIdlerFlangeBolt003",
+      "WristIdlerFlangeBolt004",
+      "WristIdlerFlangeBolt005",
+      "ShoulderStatorBolt",
+      "ShoulderStatorBolt001",
+      "ShoulderStatorBolt002",
+      "ShoulderStatorBolt003",
+      "ShoulderStatorBolt004",
+      "ShoulderStatorBolt005",
+      "ShoulderStatorBolt006",
+      "ShoulderStatorBolt007",
+      "WristStatorBolt",
+      "WristStatorBolt001",
+      "WristStatorBolt002",
+      "WristStatorBolt003",
+      "WristStatorBolt004",
+      "WristStatorBolt005"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M3 x 12; 12.9",
+    "quantity": 8,
+    "cad_names": [
+      "ElbowStatorBolt",
+      "ElbowStatorBolt001",
+      "ElbowStatorBolt002",
+      "ElbowStatorBolt003",
+      "ElbowStatorBolt004",
+      "ElbowStatorBolt005",
+      "ElbowStatorBolt006",
+      "ElbowStatorBolt007"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M3 x 14; 12.9",
+    "quantity": 6,
+    "cad_names": [
+      "WristOutputBolt",
+      "WristOutputBolt001",
+      "WristOutputBolt002",
+      "WristOutputBolt003",
+      "WristOutputBolt004",
+      "WristOutputBolt005"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M3 x 20; 12.9",
+    "quantity": 6,
+    "cad_names": [
+      "YawOutputBolt",
+      "YawOutputBolt001",
+      "YawOutputBolt002",
+      "YawOutputBolt003",
+      "YawOutputBolt004",
+      "YawOutputBolt005"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M3 x 6; 12.9",
+    "quantity": 6,
+    "cad_names": [
+      "YawRearBolt",
+      "YawRearBolt001",
+      "YawRearBolt002",
+      "YawRearBolt003",
+      "YawRearBolt004",
+      "YawRearBolt005"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M4 x 10; 12.9",
+    "quantity": 2,
+    "cad_names": [
+      "FingerMountBolt",
+      "FingerMountBolt001"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M4 x 12; 12.9",
+    "quantity": 3,
+    "cad_names": [
+      "ElbowIdlerFlangeBolt",
+      "ElbowIdlerFlangeBolt001",
+      "ElbowIdlerFlangeBolt002"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M4 x 14; 12.9",
+    "quantity": 15,
+    "cad_names": [
+      "UpperTieBolt",
+      "UpperTieBolt001",
+      "UpperTieBolt002",
+      "UpperTieBolt003",
+      "UpperTieBolt004",
+      "UpperTieBolt005",
+      "UpperTieBolt006",
+      "UpperTieBolt007",
+      "ForearmTieBolt",
+      "ForearmTieBolt001",
+      "ForearmTieBolt002",
+      "ForearmTieBolt003",
+      "ShoulderIdlerFlangeBolt",
+      "ShoulderIdlerFlangeBolt001",
+      "ShoulderIdlerFlangeBolt002"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M4 x 16; 12.9",
+    "quantity": 6,
+    "cad_names": [
+      "ShoulderOutputBolt",
+      "ShoulderOutputBolt001",
+      "ShoulderOutputBolt002",
+      "ElbowOutputBolt",
+      "ElbowOutputBolt001",
+      "ElbowOutputBolt002"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M5 x 14; 12.9",
+    "quantity": 4,
+    "cad_names": [
+      "TowerSideBolt",
+      "TowerSideBolt001",
+      "TowerSideBolt002",
+      "TowerSideBolt003"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M5 x 20; 12.9",
+    "quantity": 6,
+    "cad_names": [
+      "TurntableBolt",
+      "TurntableBolt001",
+      "TurntableBolt002",
+      "TurntableBolt003",
+      "TurntableBolt004",
+      "TurntableBolt005"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M5 x 70; 12.9",
+    "quantity": 6,
+    "cad_names": [
+      "YawHousingBolt",
+      "YawHousingBolt001",
+      "YawHousingBolt002",
+      "YawHousingBolt003",
+      "YawHousingBolt004",
+      "YawHousingBolt005"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M6 x 25; 12.9",
+    "quantity": 4,
+    "cad_names": [
+      "TowerFootBolt",
+      "TowerFootBolt001",
+      "TowerFootBolt002",
+      "TowerFootBolt003"
+    ]
+  },
+  {
+    "specification": "ISO 4762 M8 x 12; 12.9",
+    "quantity": 3,
+    "cad_names": [
+      "ShoulderPassiveShaft_axial",
+      "ElbowPassiveShaft_axial",
+      "WristPassiveShaft_axial"
+    ]
+  },
+  {
+    "specification": "ISO 7089 M6 washer 200 HV",
+    "quantity": 4,
+    "cad_names": [
+      "TowerFootWasher",
+      "TowerFootWasher001",
+      "TowerFootWasher002",
+      "TowerFootWasher003"
+    ]
+  },
+  {
+    "specification": "ISO 8734 3 m6 x 6",
+    "quantity": 6,
+    "cad_names": [
+      "SaddleDowel",
+      "SaddleDowel001",
+      "FingerDowel",
+      "FingerDowel001",
+      "FingerDowel002",
+      "FingerDowel003"
+    ]
+  },
+  {
+    "specification": "ISO 8734 4 m6 x 12",
+    "quantity": 6,
+    "cad_names": [
+      "ShoulderAdapter_pin",
+      "ShoulderAdapter_pin001",
+      "ShoulderAdapter_pin002",
+      "ElbowAdapter_pin",
+      "ElbowAdapter_pin001",
+      "ElbowAdapter_pin002"
+    ]
+  },
+  {
+    "specification": "R3B-ElbowStackSpacer",
+    "quantity": 3,
+    "cad_names": [
+      "ElbowStackSpacer",
+      "ElbowStackSpacer001",
+      "ElbowStackSpacer002"
+    ]
+  },
+  {
+    "specification": "R3B-SHAFT-WASHER 8.4 x 24 x 2",
+    "quantity": 3,
+    "cad_names": [
+      "ShoulderPassiveShaft_washer",
+      "ElbowPassiveShaft_washer",
+      "WristPassiveShaft_washer"
+    ]
+  },
+  {
+    "specification": "R3B-ShoulderStackSpacer",
+    "quantity": 3,
+    "cad_names": [
+      "ShoulderStackSpacer",
+      "ShoulderStackSpacer001",
+      "ShoulderStackSpacer002"
+    ]
+  }
+]

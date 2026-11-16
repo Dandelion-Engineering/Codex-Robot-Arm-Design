@@ -1,0 +1,128 @@
+{
+  "mesh_rows": [
+    {
+      "payload_kg": 1,
+      "h_mm": 4,
+      "max_von_mises_MPa": 14.325288797888986,
+      "max_displacement_mm": 0.42784072948382323,
+      "max_abs_principal_strain": 0.00020873662568988136,
+      "max_equivalent_deviatoric_strain": 0.00018145357290512057,
+      "max_displacement_node": 532,
+      "max_stress_node": 1476,
+      "result_nodes": 66775,
+      "strain_components_present": [
+        66775,
+        6
+      ],
+      "nodes": 66775,
+      "elements": 38350,
+      "audit_pass": true
+    },
+    {
+      "payload_kg": 1,
+      "h_mm": 3.2,
+      "max_von_mises_MPa": 14.889613174520317,
+      "max_displacement_mm": 0.4284995997922285,
+      "max_abs_principal_strain": 0.00021528295566576271,
+      "max_equivalent_deviatoric_strain": 0.00018860123510358392,
+      "max_displacement_node": 656,
+      "max_stress_node": 37828,
+      "result_nodes": 105750,
+      "strain_components_present": [
+        105750,
+        6
+      ],
+      "nodes": 105750,
+      "elements": 61991,
+      "audit_pass": true
+    },
+    {
+      "payload_kg": 1,
+      "h_mm": 2.5,
+      "max_von_mises_MPa": 14.44784756450673,
+      "max_displacement_mm": 0.42879274794125194,
+      "max_abs_principal_strain": 0.00021092225515882267,
+      "max_equivalent_deviatoric_strain": 0.0001830061277813521,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ],
+      "nodes": 151623,
+      "elements": 90506,
+      "audit_pass": true
+    },
+    {
+      "payload_kg": 8,
+      "h_mm": 3.2,
+      "max_von_mises_MPa": 49.583790357381595,
+      "max_displacement_mm": 1.4270696997004877,
+      "max_abs_principal_strain": 0.0007166490978879196,
+      "max_equivalent_deviatoric_strain": 0.0006280618717400466,
+      "max_displacement_node": 656,
+      "max_stress_node": 37828,
+      "result_nodes": 105750,
+      "strain_components_present": [
+        105750,
+        6
+      ],
+      "nodes": 105750,
+      "elements": 61991,
+      "audit_pass": true
+    },
+    {
+      "payload_kg": 8,
+      "h_mm": 2.5,
+      "max_von_mises_MPa": 48.1106467045287,
+      "max_displacement_mm": 1.428046834802868,
+      "max_abs_principal_strain": 0.0007021148144376329,
+      "max_equivalent_deviatoric_strain": 0.0006094014849073761,
+      "max_displacement_node": 772,
+      "max_stress_node": 50976,
+      "result_nodes": 151623,
+      "strain_components_present": [
+        151623,
+        6
+      ],
+      "nodes": 151623,
+      "elements": 90506,
+      "audit_pass": true
+    }
+  ],
+  "last_refinement_checks": [
+    {
+      "payload_kg": 1,
+      "relative_change_percent": {
+        "max_von_mises_MPa": 3.0576569142302477,
+        "max_abs_principal_strain": 2.0674444731574075,
+        "max_equivalent_deviatoric_strain": 3.0573333199621606,
+        "max_displacement_mm": 0.06836592979496688
+      },
+      "pass_": true
+    },
+    {
+      "payload_kg": 8,
+      "relative_change_percent": {
+        "max_von_mises_MPa": 3.061990959922451,
+        "max_abs_principal_strain": 2.070072180705681,
+        "max_equivalent_deviatoric_strain": 3.0620842408197966,
+        "max_displacement_mm": 0.06842458374380182
+      },
+      "pass_": true
+    }
+  ],
+  "interpolated_1mm_limit_kg": 5.001443868861815,
+  "interpolation": "Bisection of max norm of affine nodal displacement vectors between the computed 4kg and 8kg cases; no additional solver payload case.",
+  "affine_1_2_to_4kg_max_component_discrepancy_mm": 3.0000000001972893e-06,
+  "max_final_stress_MPa": 48.1106467045287,
+  "material_yield_min_MPa": 240,
+  "screen_stress_MPa": 120,
+  "all_cases_below_yield": true,
+  "tested_range_kg": [
+    1,
+    8
+  ],
+  "interpretation": "The 1mm isolated-plate stiffness criterion crosses within the tested range. Stress remains below 120MPa and 240MPa yield minimum at all four masses. The approximately 5kg model stiffness threshold is not an assembled-arm payload rating; grip/actuator budgets intervene earlier. No postyield inference."
+}

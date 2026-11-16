@@ -1,0 +1,12 @@
+# Local CAD backups and regenerated solver files
+*.FCBak
+*.FCStd1
+*.FCStd.*
+*.log
+__pycache__/
+solver/
+work/
+Mesh.*
+spooles.out
+Thumbs.db
+.DS_Store

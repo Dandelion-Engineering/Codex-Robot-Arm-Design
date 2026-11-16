@@ -1,0 +1,507 @@
+{
+  "payload_kg": 2,
+  "h_mm": 2.5,
+  "source": {
+    "part": "UpperCheek_Right",
+    "height_mm": 281.7641409804,
+    "force_N": [
+      -63.757165758225575,
+      -15.621488524401222,
+      0.0
+    ],
+    "moment_Nmm": [
+      530.8545609070383,
+      -2166.6169763778908,
+      -9598.719281308922
+    ],
+    "tcp_local_mm": [
+      184.80252463024812,
+      -263.5941795813734,
+      53.000000000000014
+    ],
+    "physical_part_volume_mm3": 128035.45316411919,
+    "physical_part_com_mm": [
+      93.01768518674331,
+      2.7827803988231057e-15,
+      3.999999999999999
+    ],
+    "load_origin_local_mm": [
+      220,
+      0,
+      3
+    ],
+    "gravity_direction": [
+      -0.971270947812595,
+      -0.23797635583230514,
+      0.0
+    ],
+    "gravity_mm_s2": 14709.975,
+    "effective_density_tonne_mm3": 7.734507757767734e-09,
+    "distributed_mass_kg": 0.9902912057671873,
+    "wrench_component_names": [
+      "ElbowIdler_6002",
+      "ElbowIdler_cap",
+      "ElbowIdler_retainer_thread",
+      "ElbowIdler_retainer_head",
+      "ElbowIdler_retainer_thread001",
+      "ElbowIdler_retainer_head001",
+      "ElbowIdler_retainer_thread002",
+      "ElbowIdler_retainer_head002",
+      "ElbowMotor",
+      "ElbowMotor_rotor_envelope",
+      "ElbowAdapter",
+      "ElbowAdapter_pin",
+      "ElbowAdapter_pin001",
+      "ElbowAdapter_pin002",
+      "ElbowPassiveShaft",
+      "ElbowPassiveShaft_washer",
+      "ElbowPassiveShaft_axial_thread",
+      "ElbowPassiveShaft_axial_head",
+      "ForearmCheek_Left",
+      "WristIdler_6002",
+      "WristIdler_cap",
+      "WristIdler_retainer_thread",
+      "WristIdler_retainer_head",
+      "WristIdler_retainer_thread001",
+      "WristIdler_retainer_head001",
+      "WristIdler_retainer_thread002",
+      "WristIdler_retainer_head002",
+      "ForearmCheek_Right",
+      "ForearmCrossTie",
+      "ForearmTieBolt_thread",
+      "ForearmTieBolt_head",
+      "ForearmTieBolt_thread001",
+      "ForearmTieBolt_head001",
+      "ForearmCrossTie001",
+      "ForearmTieBolt_thread002",
+      "ForearmTieBolt_head002",
+      "ForearmTieBolt_thread003",
+      "ForearmTieBolt_head003",
+      "WristMotor",
+      "WristMotor_rotor_envelope",
+      "WristAdapter",
+      "WristPassiveShaft",
+      "WristPassiveShaft_washer",
+      "WristPassiveShaft_axial_thread",
+      "WristPassiveShaft_axial_head",
+      "ElbowOutputBolt_thread",
+      "ElbowOutputBolt_head",
+      "ElbowStackSpacer",
+      "ElbowIdlerFlangeBolt_thread",
+      "ElbowIdlerFlangeBolt_head",
+      "ElbowOutputBolt_thread001",
+      "ElbowOutputBolt_head001",
+      "ElbowStackSpacer001",
+      "ElbowIdlerFlangeBolt_thread001",
+      "ElbowIdlerFlangeBolt_head001",
+      "ElbowOutputBolt_thread002",
+      "ElbowOutputBolt_head002",
+      "ElbowStackSpacer002",
+      "ElbowIdlerFlangeBolt_thread002",
+      "ElbowIdlerFlangeBolt_head002",
+      "WristOutputBolt_thread",
+      "WristOutputBolt_head",
+      "WristIdlerFlangeBolt_thread",
+      "WristIdlerFlangeBolt_head",
+      "WristOutputBolt_thread001",
+      "WristOutputBolt_head001",
+      "WristIdlerFlangeBolt_thread001",
+      "WristIdlerFlangeBolt_head001",
+      "WristOutputBolt_thread002",
+      "WristOutputBolt_head002",
+      "WristIdlerFlangeBolt_thread002",
+      "WristIdlerFlangeBolt_head002",
+      "WristOutputBolt_thread003",
+      "WristOutputBolt_head003",
+      "WristIdlerFlangeBolt_thread003",
+      "WristIdlerFlangeBolt_head003",
+      "WristOutputBolt_thread004",
+      "WristOutputBolt_head004",
+      "WristIdlerFlangeBolt_thread004",
+      "WristIdlerFlangeBolt_head004",
+      "WristOutputBolt_thread005",
+      "WristOutputBolt_head005",
+      "WristIdlerFlangeBolt_thread005",
+      "WristIdlerFlangeBolt_head005",
+      "WristStatorBolt_thread",
+      "WristStatorBolt_head",
+      "WristStatorBolt_thread001",
+      "WristStatorBolt_head001",
+      "WristStatorBolt_thread002",
+      "WristStatorBolt_head002",
+      "WristStatorBolt_thread003",
+      "WristStatorBolt_head003",
+      "WristStatorBolt_thread004",
+      "WristStatorBolt_head004",
+      "WristStatorBolt_thread005",
+      "WristStatorBolt_head005",
+      "WristDrop_Left",
+      "WristDrop_Right",
+      "PGEABody",
+      "GripperSaddle",
+      "SaddleDowel",
+      "SaddleDowel001",
+      "GripperMountBolt_thread",
+      "GripperMountBolt_head",
+      "GripperMountBolt_thread001",
+      "GripperMountBolt_head001",
+      "GripperMountBolt_thread002",
+      "GripperMountBolt_head002",
+      "GripperMountBolt_thread003",
+      "GripperMountBolt_head003",
+      "SaddleWristBolt_thread",
+      "SaddleWristBolt_head",
+      "SaddleWristBolt_thread001",
+      "SaddleWristBolt_head001",
+      "SaddleWristBolt_thread002",
+      "SaddleWristBolt_head002",
+      "SaddleWristBolt_thread003",
+      "SaddleWristBolt_head003",
+      "PGEAJaw_Left",
+      "Finger_Left",
+      "FingerMountBolt_thread",
+      "FingerMountBolt_head",
+      "FingerDowel",
+      "FingerDowel001",
+      "GripPad_Left",
+      "PadFlange",
+      "PadClamp",
+      "PadClampScrew_thread",
+      "PadClampScrew_head",
+      "PadClampScrew_thread001",
+      "PadClampScrew_head001",
+      "PadFlange001",
+      "PadClamp001",
+      "PadClampScrew_thread002",
+      "PadClampScrew_head002",
+      "PadClampScrew_thread003",
+      "PadClampScrew_head003",
+      "PGEAJaw_Right",
+      "Finger_Right",
+      "FingerMountBolt_thread001",
+      "FingerMountBolt_head001",
+      "FingerDowel002",
+      "FingerDowel003",
+      "GripPad_Right",
+      "PadFlange002",
+      "PadClamp002",
+      "PadClampScrew_thread004",
+      "PadClampScrew_head004",
+      "PadClampScrew_thread005",
+      "PadClampScrew_head005",
+      "PadFlange003",
+      "PadClamp003",
+      "PadClampScrew_thread006",
+      "PadClampScrew_head006",
+      "PadClampScrew_thread007",
+      "PadClampScrew_head007",
+      "PayloadCube"
+    ],
+    "distributed_component_names": [
+      "UpperCheek_Left",
+      "UpperCheek_Right",
+      "UpperCrossTie",
+      "UpperTieBolt_thread",
+      "UpperTieBolt_head",
+      "UpperTieBolt_thread001",
+      "UpperTieBolt_head001",
+      "UpperCrossTie001",
+      "UpperTieBolt_thread002",
+      "UpperTieBolt_head002",
+      "UpperTieBolt_thread003",
+      "UpperTieBolt_head003",
+      "UpperCrossTie002",
+      "UpperTieBolt_thread004",
+      "UpperTieBolt_head004",
+      "UpperTieBolt_thread005",
+      "UpperTieBolt_head005",
+      "UpperCrossTie003",
+      "UpperTieBolt_thread006",
+      "UpperTieBolt_head006",
+      "UpperTieBolt_thread007",
+      "UpperTieBolt_head007"
+    ],
+    "case_id": "UpperCheek_Right_hold"
+  },
+  "load_origin_mm": [
+    220.0,
+    0.0,
+    4.0
+  ],
+  "payload_force_per_kg_N": [
+    -14.287371360549578,
+    -3.500626244884313,
+    0.0
+  ],
+  "payload_moment_per_kg_Nmm": [
+    171.53068599933138,
+    -700.0811966669295,
+    -3642.854726125454
+  ],
+  "nonpayload_force_N": [
+    -49.469794397676,
+    -12.12086227951691,
+    0.0
+  ],
+  "nonpayload_moment_Nmm": [
+    343.7023863833057,
+    -1402.7786139527357,
+    -5955.864555183469
+  ],
+  "loads": [
+    {
+      "name": "DeadForce01",
+      "face": "Face12",
+      "center_mm": [
+        206.98876329958696,
+        -31.41190410538375,
+        4.0
+      ],
+      "force_N": [
+        -26.413508714942765,
+        6.864343283733866,
+        -6.282056874195575
+      ],
+      "magnitude_N": 28.004586944319094
+    },
+    {
+      "name": "DeadForce02",
+      "face": "Face13",
+      "center_mm": [
+        233.01123670041306,
+        -31.411904105383748,
+        4.0
+      ],
+      "force_N": [
+        -26.413508714942765,
+        -9.894558853613107,
+        1.612356873389369
+      ],
+      "magnitude_N": 28.251998729809134
+    },
+    {
+      "name": "DeadForce03",
+      "face": "Face14",
+      "center_mm": [
+        188.58809589461626,
+        -13.011236700413049,
+        4.0
+      ],
+      "force_N": [
+        -14.563175368382987,
+        18.714676630293642,
+        -10.496526904475886
+      ],
+      "magnitude_N": 25.932648828130187
+    },
+    {
+      "name": "DeadForce04",
+      "face": "Face15",
+      "center_mm": [
+        251.41190410538374,
+        -13.011236700413047,
+        4.0
+      ],
+      "force_N": [
+        -14.563175368382987,
+        -21.744892200172867,
+        8.562273831928298
+      ],
+      "magnitude_N": 27.536138922883502
+    },
+    {
+      "name": "DeadForce05",
+      "face": "Face26",
+      "center_mm": [
+        188.58809589461626,
+        13.011236700413058,
+        4.0
+      ],
+      "force_N": [
+        2.1957267689639917,
+        18.714676630293642,
+        -8.5622738319283
+      ],
+      "magnitude_N": 20.697170593907956
+    },
+    {
+      "name": "DeadForce06",
+      "face": "Face27",
+      "center_mm": [
+        251.41190410538374,
+        13.011236700413052,
+        4.0
+      ],
+      "force_N": [
+        2.195726768963988,
+        -21.744892200172867,
+        10.496526904475884
+      ],
+      "magnitude_N": 24.245383682207834
+    },
+    {
+      "name": "DeadForce07",
+      "face": "Face29",
+      "center_mm": [
+        206.98876329958694,
+        31.411904105383748,
+        4.0
+      ],
+      "force_N": [
+        14.04606011552376,
+        6.864343283733885,
+        -1.6123568733893716
+      ],
+      "magnitude_N": 15.716574314175968
+    },
+    {
+      "name": "DeadForce08",
+      "face": "Face30",
+      "center_mm": [
+        233.01123670041306,
+        31.411904105383748,
+        4.0
+      ],
+      "force_N": [
+        14.04606011552376,
+        -9.894558853613107,
+        6.282056874195582
+      ],
+      "magnitude_N": 18.293669348907255
+    },
+    {
+      "name": "PayloadForce01",
+      "face": "Face12",
+      "center_mm": [
+        206.98876329958696,
+        -31.41190410538375,
+        4.0
+      ],
+      "force_N": [
+        -28.318599614985313,
+        9.37528571966919,
+        -6.270340665693569
+      ],
+      "magnitude_N": 30.48206421066542
+    },
+    {
+      "name": "PayloadForce02",
+      "face": "Face13",
+      "center_mm": [
+        233.01123670041306,
+        -31.411904105383748,
+        4.0
+      ],
+      "force_N": [
+        -28.31859961498531,
+        -11.125598842111364,
+        1.609349783564081
+      ],
+      "magnitude_N": 30.4682136082064
+    },
+    {
+      "name": "PayloadForce03",
+      "face": "Face14",
+      "center_mm": [
+        188.58809589461626,
+        -13.011236700413049,
+        4.0
+      ],
+      "force_N": [
+        -13.822285121027672,
+        23.871600213626834,
+        -10.47695059368747
+      ],
+      "magnitude_N": 29.507208550941918
+    },
+    {
+      "name": "PayloadForce04",
+      "face": "Face15",
+      "center_mm": [
+        251.41190410538374,
+        -13.011236700413047,
+        4.0
+      ],
+      "force_N": [
+        -13.82228512102767,
+        -25.621913336068985,
+        8.546304956212094
+      ],
+      "magnitude_N": 30.341017408330064
+    },
+    {
+      "name": "PayloadForce05",
+      "face": "Face26",
+      "center_mm": [
+        188.58809589461626,
+        13.011236700413058,
+        4.0
+      ],
+      "force_N": [
+        6.678599440752887,
+        23.871600213626834,
+        -8.546304956212097
+      ],
+      "magnitude_N": 26.22015094643486
+    },
+    {
+      "name": "PayloadForce06",
+      "face": "Face27",
+      "center_mm": [
+        251.41190410538374,
+        13.011236700413052,
+        4.0
+      ],
+      "force_N": [
+        6.678599440752883,
+        -25.621913336068985,
+        10.476950593687466
+      ],
+      "magnitude_N": 28.475474135361164
+    },
+    {
+      "name": "PayloadForce07",
+      "face": "Face29",
+      "center_mm": [
+        206.98876329958694,
+        31.411904105383748,
+        4.0
+      ],
+      "force_N": [
+        21.174913934710517,
+        9.375285719669213,
+        -1.6093497835640838
+      ],
+      "magnitude_N": 23.21342217756117
+    },
+    {
+      "name": "PayloadForce08",
+      "face": "Face30",
+      "center_mm": [
+        233.01123670041306,
+        31.411904105383748,
+        4.0
+      ],
+      "force_N": [
+        21.174913934710517,
+        -11.125598842111364,
+        6.270340665693574
+      ],
+      "magnitude_N": 24.727982161952436
+    }
+  ],
+  "support_faces": [
+    "Face8",
+    "Face9",
+    "Face10",
+    "Face17",
+    "Face18",
+    "Face19"
+  ],
+  "physical_plate_mass_kg": 0.3456957235431218,
+  "allocated_body_mass_kg": 0.9902912057671873,
+  "body_acceleration_mm_s2": 42138.67250151,
+  "mesh_nodes": 151623,
+  "mesh_elements": 90506,
+  "volume_mm3": 128035.45316411919
+}

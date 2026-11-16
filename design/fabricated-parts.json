@@ -1,0 +1,643 @@
+[
+  {
+    "part": "R3B-BASE",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "CNC: four M8 clearance9 bench holes; six M5x0.8 tapped 10 deep PCD126; four bench M8x60 bolts with washers, locknuts and backing plates",
+    "cad_names": [
+      "BenchPlate"
+    ],
+    "local_envelope_mm": [
+      240.0,
+      230.0,
+      12.0
+    ],
+    "mass_each_kg": 1.7775419042916263,
+    "step": "cad/parts/R3B-BASE.step"
+  },
+  {
+    "part": "R3B-ElbowAdapter",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Face adapter; AK60-39 3xM4 PCD30 + 3x4H7 PCD28.5; dowels protrude 3 mm into vendor 3.5-mm holes. AK60-6 6xM3 PCD20. Match manufacturer drawing before machining.",
+    "cad_names": [
+      "ElbowAdapter"
+    ],
+    "local_envelope_mm": [
+      44.0,
+      44.0,
+      5.5
+    ],
+    "mass_each_kg": 0.018687302478457894,
+    "step": "cad/parts/R3B-ElbowAdapter.step"
+  },
+  {
+    "part": "R3B-ElbowIdler-CAP",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Turn/mill: ID32.2 x 5 deep recess, OD44 x 6; 3 x M3 clearance on PCD38; 0.05..0.15 outer-ring axial clearance via shims",
+    "cad_names": [
+      "ElbowIdler_cap"
+    ],
+    "local_envelope_mm": [
+      44.0,
+      44.0,
+      6.0
+    ],
+    "mass_each_kg": 0.011764356567416884,
+    "step": "cad/parts/R3B-ElbowIdler-CAP.step"
+  },
+  {
+    "part": "R3B-ElbowPassiveShaft",
+    "quantity": 1,
+    "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+    "process": "Turn as one part: bearing journal 15 g6; M8x1.25 axial tap 12 deep; flange M4 taps (M3 wrist) through 6; retaining washer clamps inner ring",
+    "cad_names": [
+      "ElbowPassiveShaft"
+    ],
+    "local_envelope_mm": [
+      44.0,
+      44.0,
+      29.0
+    ],
+    "mass_each_kg": 0.11399841106112597,
+    "step": "cad/parts/R3B-ElbowPassiveShaft.step"
+  },
+  {
+    "part": "R3B-ElbowStackSpacer",
+    "quantity": 3,
+    "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+    "process": "Turn OD9 ID4.5 thickness1 +/-0.02; sets vendor thread engagement",
+    "cad_names": [
+      "ElbowStackSpacer",
+      "ElbowStackSpacer001",
+      "ElbowStackSpacer002"
+    ],
+    "local_envelope_mm": [
+      9.0,
+      9.0,
+      1.0
+    ],
+    "mass_each_kg": 0.0003745465666472006,
+    "step": "cad/parts/R3B-ElbowStackSpacer.step"
+  },
+  {
+    "part": "R3B-FINGER-Left",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Mill to32mm; root10, cantilever5; M4 clearance4.5 + counterbore7.5x4; two3H7 blind3.2 pin bores at z+/-5.25, x55; 4M2 pad-retainer taps; R3 root fillet",
+    "cad_names": [
+      "Finger_Left"
+    ],
+    "local_envelope_mm": [
+      65.0,
+      27.4,
+      32.0
+    ],
+    "mass_each_kg": 0.046656691260317615,
+    "step": "cad/parts/R3B-FINGER-Left.step"
+  },
+  {
+    "part": "R3B-FINGER-Right",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Mill to32mm; root10, cantilever5; M4 clearance4.5 + counterbore7.5x4; two3H7 blind3.2 pin bores at z+/-5.25, x55; 4M2 pad-retainer taps; R3 root fillet",
+    "cad_names": [
+      "Finger_Right"
+    ],
+    "local_envelope_mm": [
+      65.0,
+      27.4,
+      32.0
+    ],
+    "mass_each_kg": 0.046656691260317615,
+    "step": "cad/parts/R3B-FINGER-Right.step"
+  },
+  {
+    "part": "R3B-FOOT-Left",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "90x20x16; vertical M6 clearance; horizontal M5x0.8 taps10 deep at x+/-30,z100; flat orthogonal mating faces0.03",
+    "cad_names": [
+      "TowerFoot_Left"
+    ],
+    "local_envelope_mm": [
+      90.0,
+      20.0,
+      16.0
+    ],
+    "mass_each_kg": 0.07405594916408209,
+    "step": "cad/parts/R3B-FOOT-Left.step"
+  },
+  {
+    "part": "R3B-FOOT-Right",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "90x20x16; vertical M6 clearance; horizontal M5x0.8 taps10 deep at x+/-30,z100; flat orthogonal mating faces0.03",
+    "cad_names": [
+      "TowerFoot_Right"
+    ],
+    "local_envelope_mm": [
+      90.0,
+      20.0,
+      16.0
+    ],
+    "mass_each_kg": 0.07405594916408209,
+    "step": "cad/parts/R3B-FOOT-Right.step"
+  },
+  {
+    "part": "R3B-ForearmCheek_Left",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "CNC mill from certified 6061-T651 plate; thickness +/-0.05; hole details in fabrication.md",
+    "cad_names": [
+      "ForearmCheek_Left"
+    ],
+    "local_envelope_mm": [
+      237.0,
+      82.0,
+      6.0
+    ],
+    "mass_each_kg": 0.2504841439345505,
+    "step": "cad/parts/R3B-ForearmCheek_Left.step"
+  },
+  {
+    "part": "R3B-ForearmCheek_Right",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "CNC mill from certified 6061-T651 plate; thickness +/-0.05; hole details in fabrication.md",
+    "cad_names": [
+      "ForearmCheek_Right"
+    ],
+    "local_envelope_mm": [
+      237.0,
+      82.0,
+      6.0
+    ],
+    "mass_each_kg": 0.22897375171240444,
+    "step": "cad/parts/R3B-ForearmCheek_Right.step"
+  },
+  {
+    "part": "R3B-PAD",
+    "quantity": 2,
+    "material": "Polyurethane 70 Shore A",
+    "process": "36x20x3 contact face, molded/machined side flanges0.8 thick; mechanically trapped by two stainless strips; assumed mu>=0.30 requires coupon test",
+    "cad_names": [
+      "GripPad_Left",
+      "GripPad_Right"
+    ],
+    "local_envelope_mm": [
+      36.0,
+      20.0,
+      3.0
+    ],
+    "mass_each_kg": 0.0025919999999999997,
+    "step": "cad/parts/R3B-PAD.step"
+  },
+  {
+    "part": "R3B-PAD-CLAMP",
+    "quantity": 4,
+    "material": "304 stainless annealed",
+    "process": "Laser cut36x6x0.8; two M2 countersinks; partial-depth cone through thin strip, clearance continues into pad flange; contact plane recessed1.4",
+    "cad_names": [
+      "PadClamp",
+      "PadClamp001",
+      "PadClamp002",
+      "PadClamp003"
+    ],
+    "local_envelope_mm": [
+      36.0,
+      6.0,
+      0.8
+    ],
+    "mass_each_kg": 0.0012533620382546508,
+    "step": "cad/parts/R3B-PAD-CLAMP.step"
+  },
+  {
+    "part": "R3B-PAD-FLANGE",
+    "quantity": 4,
+    "material": "Polyurethane 70 Shore A",
+    "process": "Integral pad flange; displayed separately for clarity",
+    "cad_names": [
+      "PadFlange",
+      "PadFlange001",
+      "PadFlange002",
+      "PadFlange003"
+    ],
+    "local_envelope_mm": [
+      36.0,
+      6.0,
+      0.8
+    ],
+    "mass_each_kg": 0.00019867412463135502,
+    "step": "cad/parts/R3B-PAD-FLANGE.step"
+  },
+  {
+    "part": "R3B-SADDLE",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "CNC6 plate; 4M3 clearance on20x20 centered x=-23; 2x3H7 locating holes at x=-23,y+/-10; underside M4 countersinks for wrist attachment; see interface schedule",
+    "cad_names": [
+      "GripperSaddle"
+    ],
+    "local_envelope_mm": [
+      78.0,
+      54.0,
+      6.000000000000002
+    ],
+    "mass_each_kg": 0.06616358844444066,
+    "step": "cad/parts/R3B-SADDLE.step"
+  },
+  {
+    "part": "R3B-SHAFT-WASHER 8.4 x 24 x 2",
+    "quantity": 3,
+    "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+    "process": "Custom turned retaining washer; clamp inner ring; selective shims, do not preload deep-groove bearing unintentionally",
+    "cad_names": [
+      "ShoulderPassiveShaft_washer",
+      "ElbowPassiveShaft_washer",
+      "WristPassiveShaft_washer"
+    ],
+    "local_envelope_mm": [
+      24.0,
+      24.0,
+      2.0
+    ],
+    "mass_each_kg": 0.0062324548690094175,
+    "step": "cad/parts/R3B-SHAFT-WASHER_8_4_x_24_x_2.step"
+  },
+  {
+    "part": "R3B-ShoulderAdapter",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Face adapter; AK60-39 3xM4 PCD30 + 3x4H7 PCD28.5; dowels protrude 3 mm into vendor 3.5-mm holes. AK60-6 6xM3 PCD20. Match manufacturer drawing before machining.",
+    "cad_names": [
+      "ShoulderAdapter"
+    ],
+    "local_envelope_mm": [
+      44.0,
+      44.0,
+      2.5
+    ],
+    "mass_each_kg": 0.008494228399299043,
+    "step": "cad/parts/R3B-ShoulderAdapter.step"
+  },
+  {
+    "part": "R3B-ShoulderIdler-CAP",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Turn/mill: ID32.2 x 5 deep recess, OD44 x 6; 3 x M3 clearance on PCD38; 0.05..0.15 outer-ring axial clearance via shims",
+    "cad_names": [
+      "ShoulderIdler_cap"
+    ],
+    "local_envelope_mm": [
+      44.0,
+      44.0,
+      6.0
+    ],
+    "mass_each_kg": 0.011764356567416893,
+    "step": "cad/parts/R3B-ShoulderIdler-CAP.step"
+  },
+  {
+    "part": "R3B-ShoulderPassiveShaft",
+    "quantity": 1,
+    "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+    "process": "Turn as one part: bearing journal 15 g6; M8x1.25 axial tap 12 deep; flange M4 taps (M3 wrist) through 6; retaining washer clamps inner ring",
+    "cad_names": [
+      "ShoulderPassiveShaft"
+    ],
+    "local_envelope_mm": [
+      44.0,
+      44.0,
+      26.0
+    ],
+    "mass_each_kg": 0.10659996036192204,
+    "step": "cad/parts/R3B-ShoulderPassiveShaft.step"
+  },
+  {
+    "part": "R3B-ShoulderStackSpacer",
+    "quantity": 3,
+    "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+    "process": "Turn OD9 ID4.5 thickness2 +/-0.02; sets vendor thread engagement",
+    "cad_names": [
+      "ShoulderStackSpacer",
+      "ShoulderStackSpacer001",
+      "ShoulderStackSpacer002"
+    ],
+    "local_envelope_mm": [
+      9.0,
+      9.0,
+      2.0
+    ],
+    "mass_each_kg": 0.0007490931332944012,
+    "step": "cad/parts/R3B-ShoulderStackSpacer.step"
+  },
+  {
+    "part": "R3B-TIE-46",
+    "quantity": 2,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "OD10x46; M4 taps10 both ends",
+    "cad_names": [
+      "ForearmCrossTie",
+      "ForearmCrossTie001"
+    ],
+    "local_envelope_mm": [
+      10.0,
+      10.0,
+      46.0
+    ],
+    "mass_each_kg": 0.00869236432827105,
+    "step": "cad/parts/R3B-TIE-46.step"
+  },
+  {
+    "part": "R3B-TIE-90",
+    "quantity": 4,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Turn OD10 x90; M4x0.7 blind taps10 both ends (model through pilot)",
+    "cad_names": [
+      "UpperCrossTie",
+      "UpperCrossTie001",
+      "UpperCrossTie002",
+      "UpperCrossTie003"
+    ],
+    "local_envelope_mm": [
+      10.0,
+      10.0,
+      90.0
+    ],
+    "mass_each_kg": 0.017006799772704227,
+    "step": "cad/parts/R3B-TIE-90.step"
+  },
+  {
+    "part": "R3B-Tower_Left",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "CNC mill from certified 6061-T651 plate; thickness +/-0.05; hole details in fabrication.md",
+    "cad_names": [
+      "Tower_Left"
+    ],
+    "local_envelope_mm": [
+      92.0,
+      121.0,
+      6.0
+    ],
+    "mass_each_kg": 0.14765677374361114,
+    "step": "cad/parts/R3B-Tower_Left.step"
+  },
+  {
+    "part": "R3B-Tower_Right",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "CNC mill from certified 6061-T651 plate; thickness +/-0.05; hole details in fabrication.md",
+    "cad_names": [
+      "Tower_Right"
+    ],
+    "local_envelope_mm": [
+      92.0,
+      121.0,
+      6.0
+    ],
+    "mass_each_kg": 0.1151741869664288,
+    "step": "cad/parts/R3B-Tower_Right.step"
+  },
+  {
+    "part": "R3B-Turntable",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "CNC mill from certified 6061-T651 plate; thickness +/-0.05; hole details in fabrication.md",
+    "cad_names": [
+      "Turntable"
+    ],
+    "local_envelope_mm": [
+      160.0,
+      160.0,
+      8.0
+    ],
+    "mass_each_kg": 0.5309044650072777,
+    "step": "cad/parts/R3B-Turntable.step"
+  },
+  {
+    "part": "R3B-UpperCheek_Left",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "CNC mill from certified 6061-T651 plate; thickness +/-0.05; hole details in fabrication.md",
+    "cad_names": [
+      "UpperCheek_Left"
+    ],
+    "local_envelope_mm": [
+      302.0,
+      82.0,
+      8.0
+    ],
+    "mass_each_kg": 0.39080408688094603,
+    "step": "cad/parts/R3B-UpperCheek_Left.step"
+  },
+  {
+    "part": "R3B-UpperCheek_Right",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "CNC mill from certified 6061-T651 plate; thickness +/-0.05; hole details in fabrication.md",
+    "cad_names": [
+      "UpperCheek_Right"
+    ],
+    "local_envelope_mm": [
+      302.0,
+      82.0,
+      8.0
+    ],
+    "mass_each_kg": 0.3456957235431218,
+    "step": "cad/parts/R3B-UpperCheek_Right.step"
+  },
+  {
+    "part": "R3B-WRIST-DROP-Left",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "6mm plate; M3 output clearance; two M4 vertical taps9 deep from bottom at x=-15,24 for saddle",
+    "cad_names": [
+      "WristDrop_Left"
+    ],
+    "local_envelope_mm": [
+      59.0,
+      71.50000000000001,
+      6.0
+    ],
+    "mass_each_kg": 0.042182341692520685,
+    "step": "cad/parts/R3B-WRIST-DROP-Left.step"
+  },
+  {
+    "part": "R3B-WRIST-DROP-Right",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "6mm plate; M3 output clearance; two M4 vertical taps9 deep from bottom at x=-15,24 for saddle",
+    "cad_names": [
+      "WristDrop_Right"
+    ],
+    "local_envelope_mm": [
+      59.0,
+      71.50000000000001,
+      6.0
+    ],
+    "mass_each_kg": 0.042182341692520685,
+    "step": "cad/parts/R3B-WRIST-DROP-Right.step"
+  },
+  {
+    "part": "R3B-WristAdapter",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Face adapter; AK60-39 3xM4 PCD30 + 3x4H7 PCD28.5; dowels protrude 3 mm into vendor 3.5-mm holes. AK60-6 6xM3 PCD20. Match manufacturer drawing before machining.",
+    "cad_names": [
+      "WristAdapter"
+    ],
+    "local_envelope_mm": [
+      34.0,
+      34.0,
+      3.0
+    ],
+    "mass_each_kg": 0.005481516835429199,
+    "step": "cad/parts/R3B-WristAdapter.step"
+  },
+  {
+    "part": "R3B-WristIdler-CAP",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Turn/mill: ID32.2 x 5 deep recess, OD44 x 6; 3 x M3 clearance on PCD38; 0.05..0.15 outer-ring axial clearance via shims",
+    "cad_names": [
+      "WristIdler_cap"
+    ],
+    "local_envelope_mm": [
+      44.0,
+      44.0,
+      6.0
+    ],
+    "mass_each_kg": 0.01176435656741689,
+    "step": "cad/parts/R3B-WristIdler-CAP.step"
+  },
+  {
+    "part": "R3B-WristPassiveShaft",
+    "quantity": 1,
+    "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+    "process": "Turn as one part: bearing journal 15 g6; M8x1.25 axial tap 12 deep; flange M4 taps (M3 wrist) through 6; retaining washer clamps inner ring",
+    "cad_names": [
+      "WristPassiveShaft"
+    ],
+    "local_envelope_mm": [
+      44.0,
+      44.0,
+      16.0
+    ],
+    "mass_each_kg": 0.06790156248090996,
+    "step": "cad/parts/R3B-WristPassiveShaft.step"
+  },
+  {
+    "part": "R3B-YAW-HOUSING",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Bore 115 H7; bearing shoulders square <=0.02; M3x0.5 retainer taps 8 deep on PCD124; M5 counterbores9 diameter x5.5 deep; matching cap has through head-clearance holes",
+    "cad_names": [
+      "YawHousing"
+    ],
+    "local_envelope_mm": [
+      140.0,
+      140.0,
+      48.0
+    ],
+    "mass_each_kg": 0.6230530447159556,
+    "step": "cad/parts/R3B-YAW-HOUSING.step"
+  },
+  {
+    "part": "R3B-YAW-INNER-CAP",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Removable cap: six M5 clamp bolts shared with turntable; six head-clearance holes for motor bolts",
+    "cad_names": [
+      "YawInnerCap"
+    ],
+    "local_envelope_mm": [
+      98.0,
+      98.0,
+      4.0
+    ],
+    "mass_each_kg": 0.07699095461285732,
+    "step": "cad/parts/R3B-YAW-INNER-CAP.step"
+  },
+  {
+    "part": "R3B-YAW-SPINDLE",
+    "quantity": 1,
+    "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+    "process": "Turn: 90 g6 journals, removable upper inner-ring cap; M5 taps10 deep PCD64. Assemble bearings from top BEFORE cap. Shim axial endplay0.02..0.08; no forced preload.",
+    "cad_names": [
+      "YawSpindle"
+    ],
+    "local_envelope_mm": [
+      98.0,
+      98.0,
+      50.0
+    ],
+    "mass_each_kg": 1.151750606603273,
+    "step": "cad/parts/R3B-YAW-SPINDLE.step"
+  },
+  {
+    "part": "R3B-YawMount",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Turn/mill; nominal bearing seats require specified fits; see fabrication.md",
+    "cad_names": [
+      "YawMount"
+    ],
+    "local_envelope_mm": [
+      140.0,
+      140.0,
+      6.0
+    ],
+    "mass_each_kg": 0.2379601246700364,
+    "step": "cad/parts/R3B-YawMount.step"
+  },
+  {
+    "part": "R3B-YawOuterCap",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Turn/mill; nominal bearing seats require specified fits; see fabrication.md",
+    "cad_names": [
+      "YawOuterCap"
+    ],
+    "local_envelope_mm": [
+      140.0,
+      140.0,
+      3.0
+    ],
+    "mass_each_kg": 0.054407509008376764,
+    "step": "cad/parts/R3B-YawOuterCap.step"
+  },
+  {
+    "part": "R3B-YawOuterSpacer",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Turn/mill; nominal bearing seats require specified fits; see fabrication.md",
+    "cad_names": [
+      "YawOuterSpacer"
+    ],
+    "local_envelope_mm": [
+      114.9,
+      114.9,
+      22.0
+    ],
+    "mass_each_kg": 0.13053458376096103,
+    "step": "cad/parts/R3B-YawOuterSpacer.step"
+  },
+  {
+    "part": "R3B-YawSeat",
+    "quantity": 1,
+    "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+    "process": "Turn/mill; nominal bearing seats require specified fits; see fabrication.md",
+    "cad_names": [
+      "YawSeat"
+    ],
+    "local_envelope_mm": [
+      140.0,
+      140.0,
+      12.0
+    ],
+    "mass_each_kg": 0.22939108450385998,
+    "step": "cad/parts/R3B-YawSeat.step"
+  }
+]

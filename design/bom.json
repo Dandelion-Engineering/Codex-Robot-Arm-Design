@@ -1,0 +1,1044 @@
+{
+  "summary": {
+    "date": "2026-11-15",
+    "currency": "USD",
+    "purchased_mechanism_USD": 2875.61,
+    "hardware_USD": 152.9,
+    "electrical_allowance_USD": 404.68,
+    "raw_material_allowance_USD": 618,
+    "fabrication_labor_USD": 3645.0,
+    "parts_material_and_electrical_USD": 4051.19,
+    "assembly_and_basic_wiring_labor_USD": 900,
+    "nominal_build_USD": 8596.19,
+    "budget_with_25pct_contingency_USD": 10745.24,
+    "assembly_basis": "Engineering allowance:8h mechanical assembly +4h basic wiring at USD75/h; does not include controller development or qualification.",
+    "exclusions": "Tax/VAT, freight, tariffs, vendor minimum order packs, PC, bench, 1kg cube, test instrumentation, controller software, safety/stop-system design, additional brakes or guards, electrical qualification, machining rework and physical validation. No purchasing performed."
+  },
+  "purchased": [
+    {
+      "group": "Purchased mechanism",
+      "part": "CubeMars AK60-39 V3.0 KV80; 24 Nm",
+      "quantity": 2,
+      "unit_USD": 448.9,
+      "total_USD": 897.8,
+      "supplier_url": "https://www.digikey.com/en/products/detail/cubemars/AK60-39-V3-0/28141870",
+      "price_basis": "Listed USD price; CubeMars Marketplace",
+      "note": "Shoulder and elbow; confirm driver included and current mechanical drawing."
+    },
+    {
+      "group": "Purchased mechanism",
+      "part": "CubeMars AK60-6 V3.0 KV80; 3 Nm",
+      "quantity": 2,
+      "unit_USD": 298.9,
+      "total_USD": 597.8,
+      "supplier_url": "https://www.digikey.com/en/products/detail/cubemars/AK60-6-V3-0-KV80/27612229",
+      "price_basis": "Listed USD price; CubeMars Marketplace",
+      "note": "Yaw and wrist; selected integrated driver variant."
+    },
+    {
+      "group": "Purchased mechanism",
+      "part": "DH PGEA-100-26-W-F1-M1-L1-J0",
+      "quantity": 1,
+      "unit_USD": 816,
+      "total_USD": 816,
+      "supplier_url": "https://dh-robotics.eu/product/dh-robotics-pgea-100-26-w-electric-parallel-gripper/",
+      "price_basis": "EUR680 ex VAT; budget conversion EUR1=USD1.20",
+      "note": "Brake, 24V, RS485, 1m cable, no fingertips. Supplier quote must confirm suffix configuration; conversion is an assumption, not a spot FX quote."
+    },
+    {
+      "group": "Purchased mechanism",
+      "part": "SKF 61818-2RS1, 90x115x13",
+      "quantity": 2,
+      "unit_USD": 200,
+      "total_USD": 400,
+      "supplier_url": "https://www.motion.com/products/sku/00143234",
+      "price_basis": "Engineering allowance; price quote required",
+      "note": "Two sealed yaw bearings."
+    },
+    {
+      "group": "Purchased mechanism",
+      "part": "SKF 6002-2RSH, 15x32x9",
+      "quantity": 3,
+      "unit_USD": 54.67,
+      "total_USD": 164.01,
+      "supplier_url": "https://www.motion.com/es/products/sku/04670602",
+      "price_basis": "Listed USD price",
+      "note": "Passive shoulder, elbow and wrist bearings."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "DIN 7984 M3 x 8; 12.9",
+      "quantity": 6,
+      "unit_USD": 0.6,
+      "total_USD": 3.6,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "DIN 965 M2 x 5; A2-70",
+      "quantity": 8,
+      "unit_USD": 0.6,
+      "total_USD": 4.8,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "DIN 965 M3 x 10; A2-70",
+      "quantity": 4,
+      "unit_USD": 0.6,
+      "total_USD": 2.4,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "DIN 965 M4 x 14; A2-70",
+      "quantity": 4,
+      "unit_USD": 0.6,
+      "total_USD": 2.4,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M3 x 10; 12.9",
+      "quantity": 29,
+      "unit_USD": 0.6,
+      "total_USD": 17.4,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M3 x 12; 12.9",
+      "quantity": 8,
+      "unit_USD": 0.6,
+      "total_USD": 4.8,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M3 x 14; 12.9",
+      "quantity": 6,
+      "unit_USD": 0.6,
+      "total_USD": 3.6,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M3 x 20; 12.9",
+      "quantity": 6,
+      "unit_USD": 0.6,
+      "total_USD": 3.6,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M3 x 6; 12.9",
+      "quantity": 6,
+      "unit_USD": 0.6,
+      "total_USD": 3.6,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M4 x 10; 12.9",
+      "quantity": 2,
+      "unit_USD": 0.6,
+      "total_USD": 1.2,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M4 x 12; 12.9",
+      "quantity": 3,
+      "unit_USD": 0.6,
+      "total_USD": 1.8,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M4 x 14; 12.9",
+      "quantity": 15,
+      "unit_USD": 0.6,
+      "total_USD": 9.0,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M4 x 16; 12.9",
+      "quantity": 6,
+      "unit_USD": 0.6,
+      "total_USD": 3.6,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M5 x 14; 12.9",
+      "quantity": 4,
+      "unit_USD": 0.6,
+      "total_USD": 2.4,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M5 x 20; 12.9",
+      "quantity": 6,
+      "unit_USD": 0.6,
+      "total_USD": 3.6,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M5 x 70; 12.9",
+      "quantity": 6,
+      "unit_USD": 1.25,
+      "total_USD": 7.5,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M6 x 25; 12.9",
+      "quantity": 4,
+      "unit_USD": 0.6,
+      "total_USD": 2.4,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 4762 M8 x 12; 12.9",
+      "quantity": 3,
+      "unit_USD": 0.6,
+      "total_USD": 1.8,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 7089 M6 washer 200 HV",
+      "quantity": 4,
+      "unit_USD": 0.6,
+      "total_USD": 2.4,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 8734 3 m6 x 6",
+      "quantity": 6,
+      "unit_USD": 1.5,
+      "total_USD": 9.0,
+      "supplier_url": "https://chapmanbradshaw.co.uk/images/Product%20Datasheets/Dowels%20and%20Pins/Solid_and_Extractable_Dowels_Datasheet.pdf",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "ISO 8734 4 m6 x 12",
+      "quantity": 6,
+      "unit_USD": 1.5,
+      "total_USD": 9.0,
+      "supplier_url": "https://chapmanbradshaw.co.uk/images/Product%20Datasheets/Dowels%20and%20Pins/Solid_and_Extractable_Dowels_Datasheet.pdf",
+      "price_basis": "Engineering allowance; order by full standard and size",
+      "note": "Counts from actual CAD bolt groups; individual head/shank solids are not separate purchases. Confirm small-quantity availability; cut/deburr a longer screw where a nonpreferred length is unavailable."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "Bench attachment set: ISO4017 M8x60 class8.8 bolts x4; ISO7089 M8 washers x8; ISO10511 M8 class8 locknuts x4",
+      "quantity": 1,
+      "unit_USD": 18,
+      "total_USD": 18,
+      "supplier_url": "https://www.mcmaster.com/products/socket-head-screws/",
+      "price_basis": "Engineering allowance",
+      "note": "For a 25mm through-bolted bench with four 50x50x3 steel backing plates. Adapt length only after measuring actual bench."
+    },
+    {
+      "group": "Purchased hardware",
+      "part": "Selective shim stock 0.02/0.05/0.10 mm + medium-strength threadlocker",
+      "quantity": 1,
+      "unit_USD": 35,
+      "total_USD": 35,
+      "supplier_url": "https://www.mcmaster.com/products/shim-stock/",
+      "price_basis": "Engineering allowance",
+      "note": "Includes bearing endplay setting; keep threadlocker away from bearings and seals."
+    },
+    {
+      "group": "Electrical allowance",
+      "part": "MEAN WELL GST360A48-C6P, 48V 7.5A 360W",
+      "quantity": 1,
+      "unit_USD": 150,
+      "total_USD": 150,
+      "supplier_url": "https://www.cdiweb.com/products/detail/gst360a48c6p-mean-well-usa/740108/",
+      "price_basis": "Engineering allowance",
+      "note": "External supply, not modeled. Regenerative voltage handling must be qualified before operation."
+    },
+    {
+      "group": "Electrical allowance",
+      "part": "MEAN WELL RSD-60L-24, 18-72V input /24V 2.5A",
+      "quantity": 1,
+      "unit_USD": 43.7,
+      "total_USD": 43.7,
+      "supplier_url": "https://www.bravoelectro.com/rsd-60l-24.html",
+      "price_basis": "Listed USD price",
+      "note": "L input range required for48V; do not substitute G variant."
+    },
+    {
+      "group": "Electrical allowance",
+      "part": "Waveshare USB-CAN-A SKU23635",
+      "quantity": 1,
+      "unit_USD": 18.99,
+      "total_USD": 18.99,
+      "supplier_url": "https://www.waveshare.com/USB-CAN-A.htm",
+      "price_basis": "Listed USD price",
+      "note": "PC to motor CAN; controller application not supplied."
+    },
+    {
+      "group": "Electrical allowance",
+      "part": "Waveshare USB TO RS485 (C) SKU34620",
+      "quantity": 1,
+      "unit_USD": 11.99,
+      "total_USD": 11.99,
+      "supplier_url": "https://www.waveshare.com/product/iot-communication/usb-to-rs485-c.htm",
+      "price_basis": "Listed USD price",
+      "note": "Gripper communication."
+    },
+    {
+      "group": "Electrical allowance",
+      "part": "Wiring, fuses, connectors, strain relief, enclosed DC distribution and regenerative clamp provision",
+      "quantity": 1,
+      "unit_USD": 180,
+      "total_USD": 180,
+      "supplier_url": "https://www.mcmaster.com/products/electrical-enclosures/",
+      "price_basis": "Unspecified engineering allowance",
+      "note": "Not an electrical release or a selected regenerative clamp design; final schematic, harness routing and stop behavior remain open."
+    }
+  ],
+  "fabrication": [
+    {
+      "part": "R3B-BASE",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        240.0,
+        230.0,
+        12.0
+      ],
+      "blank_allowance_each_USD": 18,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 18,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-ElbowAdapter",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        44.0,
+        44.0,
+        5.5
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-ElbowIdler-CAP",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        44.0,
+        44.0,
+        6.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-ElbowPassiveShaft",
+      "quantity": 1,
+      "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+      "envelope_mm": [
+        44.0,
+        44.0,
+        29.0
+      ],
+      "blank_allowance_each_USD": 12,
+      "labor_hours_each": 1.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 12,
+      "total_labor_USD": 120.0,
+      "source": "https://www.westyorkssteel.com/files/c45.pdf",
+      "note": "One-piece stepped shaft/flange; threads and15g6 journal."
+    },
+    {
+      "part": "R3B-ElbowStackSpacer",
+      "quantity": 3,
+      "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+      "envelope_mm": [
+        9.0,
+        9.0,
+        1.0
+      ],
+      "blank_allowance_each_USD": 4,
+      "labor_hours_each": 0.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 12,
+      "total_labor_USD": 60.0,
+      "source": "https://www.westyorkssteel.com/files/c45.pdf",
+      "note": "Turn, face and drill/tap as scheduled."
+    },
+    {
+      "part": "R3B-FINGER-Left",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        65.0,
+        27.4,
+        32.0
+      ],
+      "blank_allowance_each_USD": 18,
+      "labor_hours_each": 1.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 18,
+      "total_labor_USD": 120.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "CNC mill, root R3, side bores and threads."
+    },
+    {
+      "part": "R3B-FINGER-Right",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        65.0,
+        27.4,
+        32.0
+      ],
+      "blank_allowance_each_USD": 18,
+      "labor_hours_each": 1.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 18,
+      "total_labor_USD": 120.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "CNC mill, root R3, side bores and threads."
+    },
+    {
+      "part": "R3B-FOOT-Left",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        90.0,
+        20.0,
+        16.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-FOOT-Right",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        90.0,
+        20.0,
+        16.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-ForearmCheek_Left",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        237.0,
+        82.0,
+        6.0
+      ],
+      "blank_allowance_each_USD": 22,
+      "labor_hours_each": 1.0,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 22,
+      "total_labor_USD": 100.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Profile mill; ream dowels; left plate bearing pocket."
+    },
+    {
+      "part": "R3B-ForearmCheek_Right",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        237.0,
+        82.0,
+        6.0
+      ],
+      "blank_allowance_each_USD": 22,
+      "labor_hours_each": 1.0,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 22,
+      "total_labor_USD": 100.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Profile mill; ream dowels; left plate bearing pocket."
+    },
+    {
+      "part": "R3B-PAD",
+      "quantity": 2,
+      "material": "Polyurethane 70 Shore A",
+      "envelope_mm": [
+        36.0,
+        20.0,
+        3.0
+      ],
+      "blank_allowance_each_USD": 20,
+      "labor_hours_each": 0.75,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 40,
+      "total_labor_USD": 150.0,
+      "source": "https://psiurethanes.com/standard-urethane-sheeting/",
+      "note": "Machine/trim one piece including two flanges from70A urethane; stiffness/friction require coupon tests."
+    },
+    {
+      "part": "R3B-PAD-CLAMP",
+      "quantity": 4,
+      "material": "304 stainless annealed",
+      "envelope_mm": [
+        36.0,
+        6.0,
+        0.8
+      ],
+      "blank_allowance_each_USD": 2,
+      "labor_hours_each": 0.1,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 40.0,
+      "source": "https://www.mcmaster.com/products/stainless-steel-sheets/",
+      "note": "304 stainless laser cut; countersink through thin strip."
+    },
+    {
+      "part": "R3B-PAD-FLANGE",
+      "quantity": 4,
+      "material": "Polyurethane 70 Shore A",
+      "envelope_mm": [
+        36.0,
+        6.0,
+        0.8
+      ],
+      "blank_allowance_each_USD": 0,
+      "labor_hours_each": 0,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 0,
+      "total_labor_USD": 0,
+      "source": "https://psiurethanes.com/standard-urethane-sheeting/",
+      "note": "Integral with pad; do not buy four separate flanges."
+    },
+    {
+      "part": "R3B-SADDLE",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        78.0,
+        54.0,
+        6.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-SHAFT-WASHER 8.4 x 24 x 2",
+      "quantity": 3,
+      "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+      "envelope_mm": [
+        24.0,
+        24.0,
+        2.0
+      ],
+      "blank_allowance_each_USD": 4,
+      "labor_hours_each": 0.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 12,
+      "total_labor_USD": 60.0,
+      "source": "https://www.westyorkssteel.com/files/c45.pdf",
+      "note": "Turn, face and drill/tap as scheduled."
+    },
+    {
+      "part": "R3B-ShoulderAdapter",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        44.0,
+        44.0,
+        2.5
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-ShoulderIdler-CAP",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        44.0,
+        44.0,
+        6.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-ShoulderPassiveShaft",
+      "quantity": 1,
+      "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+      "envelope_mm": [
+        44.0,
+        44.0,
+        26.0
+      ],
+      "blank_allowance_each_USD": 12,
+      "labor_hours_each": 1.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 12,
+      "total_labor_USD": 120.0,
+      "source": "https://www.westyorkssteel.com/files/c45.pdf",
+      "note": "One-piece stepped shaft/flange; threads and15g6 journal."
+    },
+    {
+      "part": "R3B-ShoulderStackSpacer",
+      "quantity": 3,
+      "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+      "envelope_mm": [
+        9.0,
+        9.0,
+        2.0
+      ],
+      "blank_allowance_each_USD": 4,
+      "labor_hours_each": 0.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 12,
+      "total_labor_USD": 60.0,
+      "source": "https://www.westyorkssteel.com/files/c45.pdf",
+      "note": "Turn, face and drill/tap as scheduled."
+    },
+    {
+      "part": "R3B-TIE-46",
+      "quantity": 2,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        10.0,
+        10.0,
+        46.0
+      ],
+      "blank_allowance_each_USD": 4,
+      "labor_hours_each": 0.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 40.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Turn, face and drill/tap as scheduled."
+    },
+    {
+      "part": "R3B-TIE-90",
+      "quantity": 4,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        10.0,
+        10.0,
+        90.0
+      ],
+      "blank_allowance_each_USD": 4,
+      "labor_hours_each": 0.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 16,
+      "total_labor_USD": 80.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Turn, face and drill/tap as scheduled."
+    },
+    {
+      "part": "R3B-Tower_Left",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        92.0,
+        121.0,
+        6.0
+      ],
+      "blank_allowance_each_USD": 14,
+      "labor_hours_each": 0.8,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 14,
+      "total_labor_USD": 80.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Profile and hole patterns; left plate bearing pocket."
+    },
+    {
+      "part": "R3B-Tower_Right",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        92.0,
+        121.0,
+        6.0
+      ],
+      "blank_allowance_each_USD": 14,
+      "labor_hours_each": 0.8,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 14,
+      "total_labor_USD": 80.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Profile and hole patterns; left plate bearing pocket."
+    },
+    {
+      "part": "R3B-Turntable",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        160.0,
+        160.0,
+        8.0
+      ],
+      "blank_allowance_each_USD": 18,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 18,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-UpperCheek_Left",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        302.0,
+        82.0,
+        8.0
+      ],
+      "blank_allowance_each_USD": 22,
+      "labor_hours_each": 1.0,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 22,
+      "total_labor_USD": 100.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Profile mill; ream dowels; left plate bearing pocket."
+    },
+    {
+      "part": "R3B-UpperCheek_Right",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        302.0,
+        82.0,
+        8.0
+      ],
+      "blank_allowance_each_USD": 22,
+      "labor_hours_each": 1.0,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 22,
+      "total_labor_USD": 100.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Profile mill; ream dowels; left plate bearing pocket."
+    },
+    {
+      "part": "R3B-WRIST-DROP-Left",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        59.0,
+        71.5,
+        6.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-WRIST-DROP-Right",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        59.0,
+        71.5,
+        6.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-WristAdapter",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        34.0,
+        34.0,
+        3.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-WristIdler-CAP",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        44.0,
+        44.0,
+        6.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-WristPassiveShaft",
+      "quantity": 1,
+      "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+      "envelope_mm": [
+        44.0,
+        44.0,
+        16.0
+      ],
+      "blank_allowance_each_USD": 12,
+      "labor_hours_each": 1.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 12,
+      "total_labor_USD": 120.0,
+      "source": "https://www.westyorkssteel.com/files/c45.pdf",
+      "note": "One-piece stepped shaft/flange; threads and15g6 journal."
+    },
+    {
+      "part": "R3B-YAW-HOUSING",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        140.0,
+        140.0,
+        48.0
+      ],
+      "blank_allowance_each_USD": 55,
+      "labor_hours_each": 2.0,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 55,
+      "total_labor_USD": 200.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Bore/face in one setup; bearing shoulder and counterbores."
+    },
+    {
+      "part": "R3B-YAW-INNER-CAP",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        98.0,
+        98.0,
+        4.0
+      ],
+      "blank_allowance_each_USD": 8,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 8,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-YAW-SPINDLE",
+      "quantity": 1,
+      "material": "C45E +N; certified Rp0.2 >= 300 MPa",
+      "envelope_mm": [
+        98.0,
+        98.0,
+        50.0
+      ],
+      "blank_allowance_each_USD": 65,
+      "labor_hours_each": 2.5,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 65,
+      "total_labor_USD": 250.0,
+      "source": "https://www.westyorkssteel.com/files/c45.pdf",
+      "note": "Turn100mm max diameter bar, finish journals and mill bolt circles."
+    },
+    {
+      "part": "R3B-YawMount",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        140.0,
+        140.0,
+        6.0
+      ],
+      "blank_allowance_each_USD": 18,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 18,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-YawOuterCap",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        140.0,
+        140.0,
+        3.0
+      ],
+      "blank_allowance_each_USD": 18,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 18,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "R3B-YawOuterSpacer",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        114.9,
+        114.9,
+        22.0
+      ],
+      "blank_allowance_each_USD": 4,
+      "labor_hours_each": 0.2,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 4,
+      "total_labor_USD": 20.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Turn, face and drill/tap as scheduled."
+    },
+    {
+      "part": "R3B-YawSeat",
+      "quantity": 1,
+      "material": "6061-T651; certified Rp0.2 >= 240 MPa",
+      "envelope_mm": [
+        140.0,
+        140.0,
+        12.0
+      ],
+      "blank_allowance_each_USD": 18,
+      "labor_hours_each": 0.65,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 18,
+      "total_labor_USD": 65.0,
+      "source": "https://www.alro.com/Resources/WebResources/AlroCom/Literature/PDFs/7%20-%20Aluminum-Plate.pdf",
+      "note": "Mill/turn and inspect according to fabrication schedule."
+    },
+    {
+      "part": "Bench backing plate50x50x3, hole9",
+      "quantity": 4,
+      "material": "S235JR steel",
+      "envelope_mm": [
+        50,
+        50,
+        3
+      ],
+      "blank_allowance_each_USD": 3,
+      "labor_hours_each": 0.05,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 12,
+      "total_labor_USD": 20,
+      "source": "https://www.thyssenkrupp-materials.rs/en/products/carbon-steel-flat-products",
+      "note": "External bench interface; not in robot CAD mass."
+    },
+    {
+      "part": "Pin fit finishing and common machining setup/inspection",
+      "quantity": 1,
+      "material": "Labor only",
+      "envelope_mm": [],
+      "blank_allowance_each_USD": 0,
+      "labor_hours_each": 4,
+      "labor_rate_USD_h": 100,
+      "total_material_USD": 0,
+      "total_labor_USD": 400,
+      "source": "",
+      "note": "Vendor-facing pin ends h6; selective fit, seat inspection and setup allowance."
+    }
+  ]
+}
