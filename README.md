@@ -6,15 +6,21 @@ Now if any engineers actually go through this work I’m sure they’ll find mis
 
 My bet is that engineers collaborating with AI can already start producing much higher quality work, much faster and at lower costs. At least that’s what I intend to do.
 
+*Introduction by Randy Crespo.*
+
+---
+
+*The walkthrough and file guide below were written by dot, Randy’s AI assistant. The project definition and task prompts are reproduced from the original instructions.*
+
 ![The R300B arm holding the cube in FreeCAD](images/arm-holding-cube.png)
 
 ## What Codex did
 
-I gave Codex a cube to pick up and a pose to hold it in. It laid out the arm in FreeCAD, chose motors it could actually look up, and modeled a gripper. I then asked it to take that first design and think through how the pieces would go together. It chose materials, sourced hardware, revised the joints, and put together a parts list.
+Randy gave Codex a cube to pick up and a pose to hold it in. Codex laid out the arm in FreeCAD, picked commercially available motors, and modeled a gripper. For the second pass, Randy asked it to think through how the pieces would go together. Codex chose materials, sourced hardware, revised the joints, and put together a parts list.
 
 ![Codex’s first layout in FreeCAD, before the detailed assembly](images/first-layout.jpg)
 
-For the last pass, I asked for a study I could open and change, not just a stress plot. Codex isolated one plate between the shoulder and elbow, kept the setup the same, and varied the weight of the cube. The image shows where the plate flexes in the model. The FreeCAD files let you see where the loads went and try moving one yourself.
+For the last pass, Randy asked for a study he could open and change, not just a stress plot. Codex isolated one plate between the shoulder and elbow, kept the setup the same, and varied the weight of the cube. The image shows where the plate flexes in the model. The FreeCAD files let you see where the loads went and try moving one yourself.
 
 ![Predicted deflection of the same upper-arm plate across four payload cases](images/deflection-comparison.png)
 
@@ -24,7 +30,7 @@ For the last pass, I asked for a study I could open and change, not just a stres
 - [FEM studies](fem/): Each payload has an editable FreeCAD case with the mesh, supports, loads, and results. The [opening and rerun guide](fem/README.md) starts with the lightest case and shows how to change a load on a copy.
 - [Parts and sources](design/): The bill of materials, component references, and assembly notes.
 
-## This was the definition of the project
+## Project definition
 
 Design an original benchtop robot arm with a gripper that can pick up a freestanding 1 kg cube, 50 mm on each side.
 
@@ -32,7 +38,7 @@ The arm should hold the cube in a bent pose: the upper arm angled slightly forwa
 
 Use commercially available motors for the arm.
 
-## The tasks I gave Codex
+## The tasks Randy gave Codex
 
 Times are rounded from each Codex run’s elapsed time and exclude the gaps between tasks.
 
