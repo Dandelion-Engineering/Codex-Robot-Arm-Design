@@ -34,8 +34,10 @@ Use commercially available motors for the arm.
 
 ## The tasks I gave Codex
 
+Times are rounded from each Codex run’s elapsed time and exclude the gaps between tasks.
+
 <details>
-<summary>1. Complete the arm in FreeCAD</summary>
+<summary>1. Complete the arm in FreeCAD (48 min)</summary>
 
 # Complete Robot Arm
 
@@ -48,7 +50,7 @@ Keep working until the whole arm is complete.
 </details>
 
 <details>
-<summary>2. Revise it for fabrication and check the lift</summary>
+<summary>2. Revise it for fabrication and check the lift (1 hr 50 min)</summary>
 
 # Make the R300 arm buildable and verify the 1 kg lift
 
@@ -64,7 +66,7 @@ Turn the copy into a design intended for real fabrication and assembly. Keep the
 </details>
 
 <details>
-<summary>3. Make the payload study editable</summary>
+<summary>3. Make the payload study editable (1 hr 6 min)</summary>
 
 # R300B: inspectable FreeCAD FEM payload study
 
