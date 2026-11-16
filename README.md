@@ -1,6 +1,6 @@
 # A robot arm designed by Codex
 
-This one’s for the mechanical/aerospace engineers! The work you are about to see here was all completed by Codex (OpenAI’s coding agent). The same Codex anyone gets access to with their ChatGPT subscription. It designed a robot arm by researching real parts it could use, created a BOM, made the CAD model, and ran a few FEA studies. It then turned in all its work at 11:58 pm, one minute before it was due. Wait no, that was me during undergrad.
+This one’s for the mechanical and aerospace engineers! The work you are about to see here was all completed by Codex (OpenAI’s coding agent). The same Codex anyone gets access to with their ChatGPT subscription. It designed a robot arm by researching real parts it could use, created a BOM, made the CAD model, and ran a few FEA studies. It then turned in all its work at 11:58 pm, one minute before it was due. Wait no, that was me during undergrad.
 
 Now if any engineers actually go through this work I’m sure they’ll find mistakes or methods/decisions they would disagree with. The actual work is not the most important part here. The shape of the work is. Ask yourself, what would happen if you brought your engineering expertise, physics knowledge, CAD skills, industry understanding, etc. to an agent that could execute everything you see here? What if it built your design? Ran the studies you wanted? Made the plots/figures? And iterated under your direction?
 
