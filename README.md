@@ -37,7 +37,7 @@ Use commercially available motors for the arm.
 
 Use scripts to build the robot arm model in FreeCAD. Save the editable FreeCAD model.
 
-As you work, periodically bring up the FreeCAD window and take screenshots of a few major stages, including the initial layout and the completed assembly. Add a short caption to each. ThereΓÇÖs no need to capture every step.
+As you work, periodically bring up the FreeCAD window and take screenshots of a few major stages, including the initial layout and the completed assembly. Add a short caption to each. There’s no need to capture every step.
 
 Keep working until the whole arm is complete.
 
