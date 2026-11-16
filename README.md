@@ -18,15 +18,37 @@ My bet is that engineers collaborating with AI can already start producing much 
 
 ![The R300B arm holding the cube in FreeCAD](images/arm-holding-cube.png)
 
-## What Codex did
+## What happens if you give Codex the job and step back?
 
-Randy gave Codex a cube to pick up and a pose to hold it in. Codex laid out the arm in FreeCAD, picked commercially available motors, and modeled a gripper. For the second pass, Randy asked it to think through how the pieces would go together. Codex chose materials, sourced hardware, revised the joints, and put together a parts list.
+The arm was an experiment to gauge what Codex can do on mechanical engineering tasks right now. Randy wrote the brief and gave Codex the next task at each stage. Between those handoffs, Codex did the engineering work: it chose the parts, made the design decisions, built the CAD, and set up and ran the simulations. Randy later opened the files to see what Codex had done, not to steer those decisions.
+
+### First, give it a cube
+
+The brief was simple: pick up a 1 kg cube and hold it in a particular pose. Here’s where Codex started in FreeCAD, before it worked out the assembly in detail.
 
 ![Codex’s first layout in FreeCAD, before the detailed assembly](images/first-layout.jpg)
 
-For the last pass, Randy asked for a study he could open and change, not just a stress plot. Codex isolated one plate between the shoulder and elbow, kept the setup the same, and varied the weight of the cube. The image shows where the plate flexes in the model. The FreeCAD files let you see where the loads went and try moving one yourself.
+### Then ask how it would go together
+
+On the next pass, Codex looked up real hardware, chose materials, revised the joints, and made a bill of materials. The pose at the top shows the arm holding the cube. Here’s the other end of the job: getting the gripper around it in the first place.
+
+![Revised FreeCAD model of the arm reaching down to pick up the cube](images/arm-at-pickup.png)
+
+### What if the same cube got heavier?
+
+Codex took one plate between the shoulder and elbow and set up four simulations. The pose and cube size stayed the same; the payload mass changed. This is the jump from the whole arm to the piece Codex decided to study.
+
+![The held pose alongside the isolated plate, with the supported and loaded faces marked](images/from-arm-to-study.png)
+
+The maps show where that plate was predicted to move most. The plots below show how the results changed across the four cases. They describe the plate in this setup, not how much the whole arm can lift.
 
 ![Predicted deflection of the same upper-arm plate across four payload cases](images/deflection-comparison.png)
+
+![Codex’s plots of predicted stress, strain, and deflection as the simulated payload gets heavier](images/payload-study-trends.png)
+
+### Now put the engineer back in
+
+The point of stepping back was to see what Codex could already do, not to suggest that engineers should work this way. What happens if you bring the design? If you decide where the loads go, what assumptions to test, and what to change after seeing the results? The same tools that made these files could help you work through those decisions instead of making them for you.
 
 ## Open the files
 
