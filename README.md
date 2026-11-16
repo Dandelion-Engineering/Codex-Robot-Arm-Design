@@ -4,6 +4,8 @@ This one’s for the mechanical/aerospace engineers! The work you are about to s
 
 Now if any engineers actually go through this work I’m sure they’ll find mistakes or methods/decisions they would disagree with. The actual work is not the most important part here. The shape of the work is. Ask yourself, what would happen if you brought your engineering expertise, physics knowledge, CAD skills, industry understanding, etc. to an agent that could execute everything you see here? What if it built your design? Ran the studies you wanted? Made the plots/figures? And iterated under your direction?
 
+My bet is that engineers collaborating with AI can already start producing much higher quality work, much faster and at lower costs. At least that’s what I intend to do.
+
 ![The R300B arm holding the cube in FreeCAD](images/arm-holding-cube.png)
 
 ## What Codex did
